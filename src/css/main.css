@@ -2097,6 +2097,14 @@ video {
     height: 300px;
   }
 
+  .lg\:h-\[900px\] {
+    height: 900px;
+  }
+
+  .lg\:h-\[600px\] {
+    height: 600px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
