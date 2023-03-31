@@ -1,0 +1,1 @@
+const swiper=new Swiper(".swiper",{slidesPerView:1,loop:!0,navigation:{nextEl:".swiper-next",prevEl:".swiper-prev"}}),swiperFilter=new Swiper(".swiperFilter",{slidesPerView:1,simulateTouch:!1,loop:!1,navigation:{nextEl:".swiper-next-filter",prevEl:".swiper-prev-filter"},pagination:{el:".pagination",type:"bullets"}});

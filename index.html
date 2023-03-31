@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/BioFireplace/src/assets/css/custom.css">
+    <link rel="stylesheet" href="/BioFireplace/src/css/main.css" />
+    <title>Bio-Fireplace</title>
+</head>
+
+<body class="bg-[url('../assets/img/bg/main-bg.png')] overflow-x-hidden font-lab text-white">
+    <div id="pagepiling">
+        <div class="section sectionMain bg-[url('../assets/img/bg/main-bg.png')] overflow-hidden">
+             <header class="container header flex justify-between lg:py-[90px] md:py-[60px] py-10 relative">
+                <div class="flex items-center gap-10 logo">
+                    <a href="#"><img src="/BioFireplace/src/assets/img/icon/logo.png" alt=""></a> 
+                    <p class="text-xs text-[#6D6D6D] leading-5 xs:flex flex-col hidden">Автоматические<span class="block">биокамины</span></p>
+                </div>
+                <nav class="flex items-center lg:gap-[60px] gap-5 ">
+                    <ul class="text-[13px] text-[#949494] uppercase lg:flex hidden gap-10 menu">
+                        <li><a href="#" class="hover:text-[#FFCF7A] relative after:absolute hover:after:w-full after:w-0 after:h-[2px] after:transition-all after:duration-300 after:bg-[#FFCF7A] after:-bottom-2 after:left-0 transition-all duration-300">Продукция</a></li>
+                        <li><a href="#" class="hover:text-[#FFCF7A] relative after:absolute hover:after:w-full after:w-0 after:h-[2px] after:transition-all after:duration-300 after:bg-[#FFCF7A] after:-bottom-2 after:left-0 transition-all duration-300">Конструктор</a></li>
+                        <li><a href="#" class="hover:text-[#FFCF7A] relative after:absolute hover:after:w-full after:w-0 after:h-[2px] after:transition-all after:duration-300 after:bg-[#FFCF7A] after:-bottom-2 after:left-0 transition-all duration-300">Опыт</a></li>
+                        <li><a href="#" class="hover:text-[#FFCF7A] relative after:absolute hover:after:w-full after:w-0 after:h-[2px] after:transition-all after:duration-300 after:bg-[#FFCF7A] after:-bottom-2 after:left-0 transition-all duration-300">Контакты</a></li>
+                    </ul>
+                    <a href="#" class="header_phone">
+                        <img src="/BioFireplace/src/assets/img/icon/phone.png" alt="" class="md:w-[50px] md:h-[50px] w-[30px] h-[30px]">
+                    </a>
+                    <img src="/BioFireplace/src/assets/img/icon/menu.png" alt="" id="openMenu" class="lg:hidden flex">
+                    
+                </nav>
+                <div class="hidden text-white top-0 absolute py-[100px] bg-[url('../assets/img/bg/main-bg.png')] h-screen flex flex-col items-center text-center -translate-x-1/2 left-1/2 w-full z-[999]" id="menu">
+                    <img src="/BioFireplace/src/assets/img/icon/closeMenu.png" class="absolute top-10 right-10 w-5 h-5" id="closeMenu">
+                    <a href="#" class="tracking-widest py-6 border-b-[1px] border-white w-40">Продукция</a>
+                    <a href="#" class="tracking-widest py-6 border-b-[1px] border-white w-40">Конструктор</a>
+                    <a href="#" class="tracking-widest py-6 border-b-[1px] border-white w-40">Опыт</a>
+                    <a href="#" class="tracking-widest py-6 border-b-[1px] border-white w-40">Контакты</a>
+                </div>
+             </header>
+             
+             <section class="container flex flex-col relative">
+                <div class="absolute md:top-[10%] xs:top-[5%] xs:-left-[80%] -top-[20%] -left-[130%] md:-left-[40%] w-[600px] h-[600px] roundelg:d-[300px] h-[200px] bg-black blur-[250px] rotate-45 -z-10"></div>
+                <div class="absolute md:-top-[70%] md:-right-[60%] -top-[90%] -right-[100%] w-[600px] h-[600px] roundelg:d-[300px] h-[200px] bg-black blur-[250px] rotate-45 -z-10"></div>
+                <h1 class="main_title xl:text-[64px] lg:text-[52px] md:text-[40px] xs:text-[36px] text-[28px] tracking-[0.05em] xl:leading-[80px] lg:leading-[60px] leading-[40px] uppercase text-transparent bg-clip-text bg-gradient-to-br from-white to-white/0">Автоматические <span class="block">биокамины</span></h1>
+                <span class="title_price text-[#FFCF7A] mt-[29px] text-lg font-light tracking-[0.05em]">от <span class="text-4xl "> 99 000₽</span></span>
+                <div class="flex md:hidden justify-end right-0 lg:top-0 md:top-[28%] xs:top-[100%] top-[120%] lg:w-full md:w-2/3 relative">
+                    <img src="/BioFireplace/src/assets/img/photo/fireplace1.png" alt="" class="z-50">
+                    <div class="flex items-center justify-end absolute w-[200px] h-20 rounded-full top-[15%] md:top-[25%] right-[20%] bg-[#A74E02] blur-[100px] -z-20 rotate-[160deg]">
+                        <div class=" w-[100px] h-[40px] rounded-full bg-[#FFCF7A] blur-[50px] z-50 "></div>
+                    </div>
+                </div>
+                <div class="flex w-full justify-center md:justify-start lg:gap-x-20 gap-x-10 md:mt-[86px] mt-10 md:relative absolute -bottom-[50%] xs:-bottom-[25%] left-1/2 -translate-x-1/2">
+                    <div class="flex flex-col items-center">
+                        <img src="/BioFireplace/src/assets/img/icon/prod.svg" alt="" class="main_img">
+                        <span class="text-sm text-center mt-[14px] img_title">Свое <span class="block">производство</span></span>
+                    </div>  
+                    <div class="flex flex-col items-center">
+                        <img src="/BioFireplace/src/assets/img/icon/plane.svg" alt="" class="main_img">
+                        <span class="text-sm text-center mt-[14px] img_title">Доставка в любую <span class="block">точку мира</span></span>
+                    </div>  
+                </div>
+                <div class="absolute hidden md:flex justify-end right-0 lg:top-0 md:top-[28%] xs:top-[100%] top-[120%] lg:w-full md:w-2/3 main_fireplace">
+                    <img src="/BioFireplace/src/assets/img/photo/fireplace1.png" alt="" class="z-50">
+                    <div class="flex items-center justify-end absolute w-[200px] animate-pulse h-20 rounded-full top-[15%] md:top-[25%] right-[20%] bg-[#A74E02] blur-[100px] -z-20 rotate-[160deg]">
+                        <div class=" w-[100px] h-[40px] rounded-full bg-[#FFCF7A] blur-[50px] z-50 "></div>
+                    </div>
+                </div>
+                <div class="bg-black w-[300px] h-[140px] lg:w-[600px] lg:h-[192px] rounded-full blur-[100px] absolute rotate-[150deg] right-[50%] top-[60%] md:right-[20%] md:top-[80%] lg:right-[10%] lg:top-1/2 -z-10"></div>
+            </section>
+            
+        </div>
+        <div class="section bg-[url('../assets/img/bg/main-bg.png')] flex flex-col overflow-hidden">
+            <section class="container relative my-auto">
+                <img src="/BioFireplace/src/assets/img/photo/shadow-fireplace.png" alt="" class="absolute animate-pulse shadow-fire top-[15%] min-[385px]:top-[13%] min-[451px]:top-[4%] xs:top-[6%] min-[656px]:-top-[10%] md:-top-[20%] lg:-top-[23%] left-1/2 -translate-x-1/2 -z-10">
+                <h2 class="title_prod md:text-[40px] xs:text-4xl text-xl text-center z-50 tracking-[0.07em] lg:leading-[60px] leading-[30px] uppercase text-transparent bg-clip-text bg-gradient-to-bl from-white to-white/20">Настоящий высокий огонь <span class="block"> у вас дома</span></h2>
+                <p class="subtitle_prod mt-5 text-center text-white md:text-base text-sm lg:leading-8 leading-6 tracking-[0.03em]">Благодаря специальной технологии горения <span class="block">биоэтанола
+                    мы добились горения потрясающей красоты</span> </p>
+                <img src="/BioFireplace/src/assets/img/photo/fireplace2.png" alt="">
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-y-10 gap-y-6 mt-10 md:mt-0">
+                    <div class="flex md:flex-row flex-col justify-center lg:justify-start items-center gap-x-[30px] gap-y-5 cursor-pointer" id="fire">
+                        <img src="/BioFireplace/src/assets/img/icon/fire.png" alt="" class="w-10 h-10 img_prod">
+                        <p class="font-light text-center md:text-start img_prod_title">Пламя яркое, высотой <span class="block">до 20 сантиметров</span></p>
+                    </div>
+                    <div class="flex md:flex-row flex-col justify-center lg:justify-start items-center gap-x-[30px] gap-y-5">
+                        <img src="/BioFireplace/src/assets/img/icon/h2o.png" alt="" class="w-10 h-10 img_prod">
+                        <p class="font-light text-center md:text-start img_prod_title">Работает такой камин <span class="block">на биотопливе</span></p>
+                    </div>
+                    <div class="flex md:flex-row flex-col justify-center lg:justify-start items-center gap-x-[30px] gap-y-5 md:col-span-2 lg:col-span-1">
+                        <img src="/BioFireplace/src/assets/img/icon/close.png" alt="" class="w-10 h-10 img_prod">
+                        <p class="font-light text-center md:text-start img_prod_title">Он не дымит и не пахнет</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="section bg-[url('../assets/img/bg/main-bg.png')] flex flex-col overflow-hidden">
+            <section class="container flex md:flex-row flex-col justify-between pt-20 md:pt-0 md:my-auto relative">
+                <div class="absolute rotate-45 lg:-left-[35%] -left-[55%] w-[600px] h-[900px] h-[200px] bg-black blur-[250px]"></div>
+                <div class="flex flex-col md:w-[33%]">
+                    <h2 class="md:text-[40px] xs:text-4xl text-xl z-50 tracking-[0.07em] uppercase text-transparent bg-clip-text bg-gradient-to-l from-white to-white/10">заправка</h2>
+                    <p class="font-light md:text-lg text-base text-white mt-6 lg:leading-8 leading-6">Внутри не просто труба. Спроектированный нами бак, самого большого обьема среди всех производителей.</p>
+                    <p class="font-light md:text-lg text-base text-white mt-9 lg:leading-8 leading-6">В наши топливные блоки встроен мощный насос.</p>
+                </div>
+                <div class="flex justify-center md:justify-end lg:w-[55%] md:mt-0 mt-10">
+                    <div class="flex justify-center relative w-[280px] h-[267px] min-[518px]:w-[478px] min-[518px]:h-[456px]">
+                        <img src="/BioFireplace/src/assets/img/photo/gas1.png" alt="" class="md:w-[478px] md:h-[456px]">
+                        <img src="/BioFireplace/src/assets/img/photo/shadow-gas.png" alt="" class="absolute md:-top-[20%] md:-right-[15%] lg:-top-[25%] -top-[30%] -right-[20%]">
+                        <div class="absolute hidden right-[200px] min-[518px]:right-[340px] md:right-[340px] top-[46%] w-[60px] h-[60px] min-[518px]:w-[100px] min-[518px]:h-[100px] rounded-full border-[2px] border-[#FFCF7A]" id="circleHose"></div>
+                        <div class="absolute right-[100px] min-[518px]:right-[180px] top-[58%] w-[100px] h-[100px] min-[518px]:w-[194px] min-[518px]:h-[194px] rounded-full border-[2px] border-[#FFCF7A]" id="circlePower"></div>
+                        <div class="flex flex-col items-center justify-center absolute top-[10%] right-0 rounded-full w-[100px] h-[100px] min-[518px]:w-[151px] min-[518px]:h-[151px] bg-[radial-gradient(100%_65.98%_at_100%_73.18%,#FFFFFF_0.31%,_#FFE2A4_59.23%,#FFD47C_100%)]">
+                            <p class="min-[518px]:text-4xl text-2xl font-bold text-center min-[518px]:leading-7 leading-5 text-black">3,5 <span class="block text-base">минуты</span></p>
+                            <span class="text-[10px] text-black text-center">и бак наполнен <span class="block">на 100%</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-y-5 absolute lg:bottom-0 min-[518px]:-bottom-[100px] -bottom-[130px] left-1/2 -translate-x-1/2">
+                    <div class="flex items-center gap-5">
+                        <img src="/BioFireplace/src/assets/img/icon/hose.svg" alt="" class="cursor-pointer animate-bounce" id="btnHose">
+                        <div class="w-8 h-0.5 bg-[#949494]">&nbsp</div>                        
+                        <img src="/BioFireplace/src/assets/img/icon/power-button.svg" alt="" class="cursor-pointer animate-bounce" id="btnPower">
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <span class="text-white text-sm">Достаточно вставить шланг</span>
+                        <span class="text-white text-sm">Нажать кнопку</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="section pp-scrollable bg-[url('../assets/img/bg/main-bg.png')] flex flex-col">
+            <section class="container flex flex-col my-auto py-20">
+                <h2 class="text-center md:text-[40px] xs:text-4xl text-xl z-50 tracking-[0.07em] uppercase text-transparent bg-clip-text bg-gradient-to-l from-white to-white/10">Умный камин - очень умный</h2>
+                <img src="/BioFireplace/src/assets/img/photo/fireplace3.png" alt="" class="mt-3 md:mb-10 mb-0">
+                <div class="flex flex-col w-full md:gap-y-[100px] xs:gap-y-[60px] gap-y-10 sectionFeat">
+                    <div class="flex xs:flex-row flex-col justify-between lg:gap-x-20 md:gap-x-10 gap-x-5">
+                        <div class="flex flex-col xs:w-1/2 relative">
+                            <div class="w-full h-[280px] bg-black blur-[150px] rounded-full absolute xl:top-[30%] lg:top-[15%] left-0 -z-10"></div>
+                            <div class="flex flex-col w-full">
+                                <h3 class="lg:text-2xl md:text-xl text-lg text-white lg:leading-[40px]"><span class="block min-[500px]:flex">&nbsp<span class="block">&nbsp</span></span><span class="block md:flex">Топливный блок</span></h3>
+                                <p class="mt-6 text-sm text-white">Лицевая панель из  жаропрочной нержавеющей стали толщиной 5 мм</p>
+                                <img src="/BioFireplace/src/assets/img/photo/fireplace4.png" alt="" class="mt-5">
+                            </div>
+                            <div class="flex flex-col w-full mt-9">
+                                <h4 class="text-[#757575] lg:text-lg md:text-base text-sm">Варианты отделок</h4>
+                                <div class="flex xs:flex-col md:flex-row justify-between gap-y-3 mt-4 text-sm text-white">
+                                    <ul class="flex flex-col gap-3 md:w-1/2">
+                                        <li>черный матовый</li>
+                                        <li>шлифованная сталь</li>
+                                    </ul>
+                                    <ul class="flex flex-col gap-3 md:w-1/2">
+                                        <li>керамика</li>
+                                        <li>нитрид калия</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full mt-20">
+                                <h4 class="text-[#757575] lg:text-lg md:text-base text-sm">Стандартная комплектация</h4>
+                                <div class="flex xs:flex-col md:flex-row gap-y-3 gap-x-5 justify-between mt-4 text-sm text-white">
+                                    <ul class="flex flex-col gap-3 md:w-1/2">
+                                        <li>Управление с кнопок</li>
+                                        <li>С помощью пульта</li>
+                                        <li>Умный дом</li>
+                                        <li>Бесшумность</li>
+                                        <li>Датчик CO2</li>
+                                        <li>Датчик пролива</li>
+                                    </ul>
+                                    <ul class="flex flex-col gap-3 md:w-1/2">
+                                        <li>Датчик температуры</li>
+                                        <li>Датчик наклона</li>
+                                        <li>Дисплей</li>
+                                        <li>Индикатор уровня топлива</li>
+                                        <li>Блокировка залива топлива</li>
+                                        <li>Кнопка отключения от сети на лицевой панели</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col lg:w-[calc(50%-40px)] md:w-[calc(50%-20px)] xs:w-[calc(50%-10px)]">
+                            <div class="flex flex-col w-full">
+                                <h3 class="lg:text-2xl md:text-xl text-lg text-white lg:leading-[40px] xs:mt-0 mt-10">Очаги для встраивания в нишу <span class="lg:block">по Вашим размерам</span></h3>
+                                <ul class="flex flex-col gap-3 mt-6 text-sm">
+                                    <li>Короб выполненый из нержавеющей стали 2 мм или холоднокатанной стали 3 мм</li>
+                                    <li>Окрашен кремний органической и акриловой краской</li>
+                                    <li>Каждый комплектуется керамическим матом</li>
+                                    <li>Лучшая теплоизолированость из доступных</li>
+                                    <li>Изготавливается исключительно под Ваши размеры</li>
+                                    <li>Наши технологи спроектируют техническое задание для ниши учитывая особенности Вашего ремонт</li>
+                                    <li>Размер ограничен только Вашей фантазией Отделка стемалитом и цветными металлам</li>
+                                </ul>
+                            </div>
+                            <div class="flex w-full xs:mt-10 mt-5">
+                                <div class="swiper relative">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><div class="w-full lg:h-[300px] h-[200px] bg-black">1</div></div>
+                                        <div class="swiper-slide"><div class="w-full lg:h-[300px] h-[200px] bg-white">2</div></div>
+                                    </div>
+                                    <div class="flex gap-5 absolute md:left-10 md:bottom-10 left-5 bottom-5">
+                                        <div class="swiper-prev bottom-10 z-50"><img src="/BioFireplace/src/assets/img/icon/arrowPrev.png" alt="" class="w-full"></div>
+                                        <div class="swiper-next bottom-10 z-50"><img src="/BioFireplace/src/assets/img/icon/arrowNext.png" alt="" class="w-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex xs:flex-row flex-col justify-between lg:gap-x-20 md:gap-x-10 gap-x-5">
+                        <div class="flex flex-col lg:w-[calc(50%-40px)] md:w-[calc(50%-20px)] xs:w-[calc(50%-10px)]">
+                            <h3 class="lg:text-2xl md:text-xl text-lg text-white lg:leading-[40px]">Готовые решения</h3>
+                            <p class="mt-6 text-sm text-white leading-7 grow">Напольные отдельно стоящие камины. <span class="block">
+                                Настенные очаги которые вешаются как ТВ. Подвесные модели.</span>
+                            </p>
+                            <div class="swiper w-full relative xs:mt-10 mt-5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><div class="w-full lg:h-[300px] h-[200px] bg-black">1</div></div>
+                                    <div class="swiper-slide"><div class="w-full lg:h-[300px] h-[200px] bg-white">2</div></div>
+                                </div>
+                                <div class="flex gap-5 absolute md:left-10 md:bottom-10 left-5 bottom-5">
+                                    <div class="swiper-prev bottom-10 z-50"><img src="/BioFireplace/src/assets/img/icon/arrowPrev.png" alt="" class="w-full"></div>
+                                    <div class="swiper-next bottom-10 z-50"><img src="/BioFireplace/src/assets/img/icon/arrowNext.png" alt="" class="w-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col lg:w-[calc(50%-40px)] md:w-[calc(50%-20px)] xs:w-[calc(50%-10px)]">
+                            <h3 class="lg:text-2xl md:text-xl text-lg text-white lg:leading-[40px] xs:mt-0 mt-10">Аксессуары</h3>
+                            <p class="mt-6 text-sm text-white leading-7 grow">Защитные экраны, Дверцы, Стемалит, Дрова, 
+                                <span class="block">Камни, Кастомные пульты </span>
+                            </p>
+                            <div class="swiper w-full relative xs:mt-10 mt-5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><div class="w-full lg:h-[300px] h-[200px] bg-black">1</div></div>
+                                    <div class="swiper-slide"><div class="w-full lg:h-[300px] h-[200px] bg-white">2</div></div>
+                                </div>
+                                <div class="flex gap-5 absolute md:left-10 md:bottom-10 left-5 bottom-5">
+                                    <div class="swiper-prev bottom-10 z-50"><img src="/BioFireplace/src/assets/img/icon/arrowPrev.png" alt="" class="w-full"></div>
+                                    <div class="swiper-next bottom-10 z-50"><img src="/BioFireplace/src/assets/img/icon/arrowNext.png" alt="" class="w-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center gap-9 relative">
+                        <p class="lg:text-[30px] md:text-2xl text-xl text-white font-light text-center">Получите каталог с моделями и ценами на всю нашу продукцию</p>
+                        <a href="#" class="relative flex items-center justify-center w-[286px] h-[60px] bg-[#ECCF94] overflow-hidden ">
+                            <span class="text-[#121212] text-lg font-bold z-30 w-fit">Получить каталог!</span>
+                            <div class="absolute w-[184px] h-[124px] -top-[140%] -right-[20%] blur-[25px] bg-[linear-gradient(270.21deg,rgba(255,217,196,0.8)_18.08%,rgba(255,255,255,0.8)_68.72%)]"></div>
+                            <div class="absolute w-[184px] h-[124px] -bottom-[140%] -left-[10%] blur-[25px] bg-[linear-gradient(270.21deg,rgba(249,139,77,0.8)_18.08%,rgba(255,103,82,0.8)_68.72%)]"></div>
+                        </a>
+                        <div class="absolute w-[98px] h-[201px] rounded-full right-1/2 -bottom-[60%] rotate-90 blur-[50px] bg-[rgba(175,152,112,0.34)] -z-10"></div>
+                        <div class="absolute w-[90%] h-[236px] rounded-full left-[10%] -top-[20%] blur-[75px] bg-[rgba(18,18,18,0.7)] -z-20"></div>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+        <div class="section pp-scrollable bg-[url('../assets/img/bg/main-bg.png')] flex flex-col py-20 gap-y-[90px]">
+            <div class="flex flex-col">
+                <h2 class="text-center md:text-[40px] xs:text-4xl text-xl z-50 tracking-[0.07em] uppercase text-transparent bg-clip-text bg-gradient-to-l from-white to-white/10">Есть задача? Есть решение!</h2>
+                <div class="container grid lg:grid-cols-3 xs:grid-cols-2 grid-cols-1 lg:gap-[42px] gap-5 md:mt-10 mt-5">
+                    <div class="bg-black w-full h-[267px]">&nbsp</div>
+                    <div class="bg-black w-full h-[267px]">&nbsp</div>
+                    <div class="bg-black w-full h-[267px]">&nbsp</div>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <h2 class="text-center md:text-[40px] xs:text-4xl text-xl z-50 tracking-[0.07em] uppercase text-transparent bg-clip-text bg-gradient-to-l from-white to-white/10">Почемы мы можем многое?<span class="block">
+                    Свои люди. Свои станки. Своя лаборатория</span></h2>
+                <div class="container grid lg:grid-cols-3 xs:grid-cols-2 grid-cols-1 lg:gap-[42px] gap-5 md:mt-10 mt-5">
+                    <div class="bg-black w-full h-[267px]">&nbsp</div>
+                    <div class="bg-black w-full h-[267px]">&nbsp</div>
+                    <div class="bg-black w-full h-[267px]">&nbsp</div>
+                </div>
+            </div>
+        </div>
+        <div class="section pp-scrollable bg-[url('../assets/img/bg/main-bg.png')] flex flex-col overflow-x-hidden">
+            <section class="container flex flex-col pt-20 pb-[100px] relative">
+                <div class="bg-[rgba(18,18,18,0.5)] w-[1300px] h-[700px] -z-10 absolute top-[50%] -right-[90%] md:top-10 md:-right-[30%] rounded-[300px] blur-[125px]"></div>
+                <h2 class="text-center md:text-[40px] xs:text-4xl text-xl z-50 tracking-[0.07em] uppercase text-transparent bg-clip-text bg-gradient-to-l from-white to-white/10 mb-16">вы автор вашего камина</h2>
+                <form class="flex flex-col gap-y-16">
+                    <div class="flex md:flex-row flex-col lg:gap-x-20 md:gap-x-10">
+                        <div class="flex md:w-[45%]">
+                            <img src="/BioFireplace/src/assets/img/photo/fireplace-filter.png" alt="" class="object-cover w-full">
+                        </div>
+                        <div class="flex flex-col gap-3 md:w-[55%] md:mt-0 mt-5 z-40">
+                            <div class="flex flex-col gap-6">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">Выберите длину</span>
+                                <div class="flex w-full gap-10">
+                                    <span class="text-white text-lg font-medium whitespace-nowrap">0.5 м</span>
+                                    <div class="chrome w-full">
+                                        <input id="myinput" name="length" min="0.5" max="10" type="range" step="0.5" value="5" class="cursor-pointer"/>
+                                    </div>
+                                    <span class="text-white text-lg font-medium whitespace-nowrap">10 м</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-6">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">Лицевая панель</span>
+                                <div class="flex justify-between items-center xl:w-1/2 lg:w-[60%] md:w-full">
+                                    <div class="swiper-prev-filter flex items-center justify-center"><img src="/BioFireplace/src/assets/img/icon/arrowPrev.png" alt="" class="w-[9px] h-4"></div>
+                                    <div class="w-[247px] h-[59px]">
+                                        <div class="swiper swiperFilter">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide"><img src="/BioFireplace/src/assets/img/photo/panel.png" alt="" class="w-full"></div>
+                                                <div class="swiper-slide"><img src="/BioFireplace/src/assets/img/photo/panel.png" alt="" class="w-full"></div>
+                                                <div class="swiper-slide"><img src="/BioFireplace/src/assets/img/photo/panel.png" alt="" class="w-full"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-next-filter flex items-center justify-center"><img src="/BioFireplace/src/assets/img/icon/arrowNext.png" alt="" class="w-[9px] h-4"></div>
+                                </div>
+                                <div class="flex justify-center xl:w-1/2 lg:w-[60%] md:w-full -mt-5">
+                                    <div class="pagination text-center"></div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-6">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">дополнительные функции</span>
+                                <div class="flex xl:gap-[140px] lg:gap-20 xs:gap-10 gap-2 justify-between">
+                                    <ul class="w-1/2 flex flex-col gap-2">
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num1">
+                                                <span></span>
+                                                <p class="text-sm text-white">Защита от детей</p> 
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num2">
+                                                <span></span>
+                                                <p class="text-sm text-white">Wi-Fi</p> 
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num3">
+                                                <span></span>
+                                                <p class="text-sm text-white">Защита от детей</p> 
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num4">
+                                                <span></span>
+                                                <p class="text-sm text-white">Wi-Fi</p> 
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <ul class="w-1/2 flex flex-col gap-2">
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num5">
+                                                <span></span>
+                                                <p class="text-sm text-white">Защита от детей</p> 
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num6">
+                                                <span></span>
+                                                <p class="text-sm text-white">Wi-Fi</p> 
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num7">
+                                                <span></span>
+                                                <p class="text-sm text-white">Защита от детей</p> 
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="flex xl:gap-20 xs:gap-10 gap-2 justify-between flex-row-reverse items-center">
+                                                <input type="checkbox" name="num8">
+                                                <span></span>
+                                                <p class="text-sm text-white">Wi-Fi</p> 
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex lg:flex-row flex-col justify-between">
+                        <div class="flex lg:w-1/2 xs:gap-[150px] justify-between xs:justify-start">
+                            <div class="flex flex-col gap-5 w-[45px]">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">длина</span>
+                                <span class="text-lg text-white"><span id="length">6.5</span> м</span>
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">лицевая панель</span>
+                                <div class="bg-[#B8542A] w-7 h-7 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div class="flex xs:flex-row flex-col xs:items-end justify-between lg:w-1/2 lg:mt-0 mt-5">
+                            <div class="flex flex-col gap-5">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">стоимость</span>
+                                <span class="text-4xl text-[#FFCF7A]"><span class="price">99 000</span>₽</span>
+                            </div>
+                            <button type="submit" class="relative xs:mt-0 mt-3 flex items-center justify-center w-[254px] h-[60px] bg-[#ECCF94] overflow-hidden">
+                                <span class="text-[#121212] text-lg font-bold z-30 w-fit">Оставить заявку</span>
+                                <div class="absolute w-[184px] h-[124px] -top-[140%] -right-[20%] blur-[25px] bg-[linear-gradient(270.21deg,rgba(255,217,196,0.8)_18.08%,rgba(255,255,255,0.8)_68.72%)]"></div>
+                                <div class="absolute w-[184px] h-[124px] -bottom-[140%] -left-[10%] blur-[25px] bg-[linear-gradient(270.21deg,rgba(249,139,77,0.8)_18.08%,rgba(255,103,82,0.8)_68.72%)]"></div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <footer class="bg-[#121212] pt-[72px] z-50">
+                <div class="container flex flex-col">
+                    <h2 class="md:text-[40px] xs:text-4xl text-xl tracking-[0.07em] uppercase text-transparent bg-clip-text bg-gradient-to-l from-white to-white/10">связаться с нами</h2>
+                    <div class="grid lg:grid-cols-4 md:grid-cols-3 xs:grid-cols-2 grid-cols-1 mt-[72px]">
+                        <div class="flex flex-col gap-y-[52px]">
+                            <div class="flex flex-col gap-4">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">WhatsApp</span>
+                                <a href="tel:+79113064144" class="text-[22px] text-white font-light w-fit">+7911 306 4144</a>
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">Телеграм</span>
+                                <span class="text-[22px] text-white font-light">@elite_fire</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col lg:col-span-2 gap-[52px] xs:mt-0 mt-4">
+                            <div class="flex flex-col gap-5">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">Почта</span>
+                                <a href="mailto:info@elite-fire.ru" class="text-[22px] text-[#FFCF7A] font-light w-fit">info@elite-fire.ru</a>
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">Наш адрес</span>
+                                <span class="text-[22px] text-white font-light">Россия, г. Москва, <span class="block">
+                                    Варшавское шоссе, 170 г</span> 
+                                </span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-[52px] md:mt-0 mt-4">
+                            <div class="flex flex-col gap-4">
+                                <span class="text-[10px] text-white/50 font-medium uppercase">Телефон</span>
+                                <a href="tel:89113064144" class="text-[22px] text-white font-light w-fit">8 911 306 4144</a>
+                            </div>
+                            <button class="py-4 px-7 text-lg w-fit text-white border-[1px] border-[#CEB787] hover:bg-[#CEB787] hover:text-black transition-all duration-500">Связаться с менеджером</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-[1px] bg-[#232323] mt-20"></div>
+                <div class="container flex lg:flex-row flex-col items-center md:items-end lg:items-center lg:justify-between py-10">
+                    <div class="flex md:flex-row flex-col items-center justify-between w-full lg:w-1/2">
+                        <a href="#" class="text-center"><img src="/BioFireplace/src/assets/img/icon/logo.png" alt=""></a>
+                        <div class="flex xs:flex-row flex-col items-center gap-x-12 text-[#6D6D6D] text-sm md:mt-0 mt-2">
+                            <span>2020-2021</span>
+                            <span>ООО “МЕТАЛЛЭЛЕКТРОИНВЕСТ”</span>
+                        </div>
+                    </div>
+                    <a href="#" class="text-[#6D6D6D] text-sm md:mt-0 mt-1">Пользовательское соглашение</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+<script src="/BioFireplace/src/assets/libs/jquery.js"></script>
+<script src="/BioFireplace/src/assets/libs/gsap.js"></script>
+<script src="/BioFireplace/src/assets/libs/scrollTrigger.js"></script>
+<script src="/BioFireplace/src/assets/libs/swiper.js"></script>
+<script src="/BioFireplace/src/assets/libs/jquery.pagepiling.min.js"></script>
+<script src="/BioFireplace/src/assets/js/custom.js"></script>
+<script src="/BioFireplace/src/assets/js/slider.js"></script>
+<script src="/BioFireplace/src/assets/js/animations.js"></script>
+</body>
+</html>
